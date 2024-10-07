@@ -1,0 +1,19 @@
+tags:
+  - continuous
+  - cdep
+  - dep
+  - deployment
+
+steps:
+- name: 'python:3.9'
+  id: "check tests"
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+        pip install -r requirements.txt
+        # Run your Python script
+        python src/main.py
+ 
+options:
+  logging: CLOUD_LOGGING_ONLY
