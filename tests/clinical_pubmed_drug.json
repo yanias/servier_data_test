@@ -1,0 +1,135 @@
+[
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical",
+        "id":"NCT01967433",
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical",
+        "id":"NCT04189588",
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical",
+        "id":"NCT04237091",
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Hôpitaux Universitaires de Genève",
+        "journal_type":"clinical",
+        "id":"NCT04153396",
+        "drug":"BETAMETHASONE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical",
+        "id":"NCT04188184",
+        "drug":"EPINEPHRINE",
+        "mention_date":"2020-04-27"
+    },
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"pubmed",
+        "id":1,
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2019-01-01"
+    },
+    {
+        "journal":"Journal of emergency nursing",
+        "journal_type":"pubmed",
+        "id":2,
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2019-01-01"
+    },
+    {
+        "journal":"The Journal of pediatrics",
+        "journal_type":"pubmed",
+        "id":3,
+        "drug":"DIPHENHYDRAMINE",
+        "mention_date":"2019-01-02"
+    },
+    {
+        "journal":"Journal of food protection",
+        "journal_type":"pubmed",
+        "id":4,
+        "drug":"TETRACYCLINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"American journal of veterinary research",
+        "journal_type":"pubmed",
+        "id":5,
+        "drug":"TETRACYCLINE",
+        "mention_date":"2020-01-02"
+    },
+    {
+        "journal":"Psychopharmacology",
+        "journal_type":"pubmed",
+        "id":6,
+        "drug":"TETRACYCLINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Psychopharmacology",
+        "journal_type":"pubmed",
+        "id":6,
+        "drug":"ETHANOL",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"The journal of allergy and clinical immunology. In practice",
+        "journal_type":"pubmed",
+        "id":7,
+        "drug":"EPINEPHRINE",
+        "mention_date":"2020-02-01"
+    },
+    {
+        "journal":"The journal of allergy and clinical immunology. In practice",
+        "journal_type":"pubmed",
+        "id":8,
+        "drug":"EPINEPHRINE",
+        "mention_date":"2020-03-01"
+    },
+    {
+        "journal":"Journal of photochemistry and photobiology. B, Biology",
+        "journal_type":"pubmed",
+        "id":9,
+        "drug":"ISOPRENALINE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"The journal of maternal-fetal & neonatal medicine",
+        "journal_type":"pubmed",
+        "id":10,
+        "drug":"BETAMETHASONE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"Journal of back and musculoskeletal rehabilitation",
+        "journal_type":"pubmed",
+        "id":"11",
+        "drug":"BETAMETHASONE",
+        "mention_date":"2020-01-01"
+    },
+    {
+        "journal":"The journal of maternal-fetal & neonatal medicine",
+        "journal_type":"pubmed",
+        "id":"",
+        "drug":"ATROPINE",
+        "mention_date":"2020-03-01"
+    },
+    {
+        "journal":"The journal of maternal-fetal & neonatal medicine",
+        "journal_type":"pubmed",
+        "id":"",
+        "drug":"BETAMETHASONE",
+        "mention_date":"2020-03-01"
+    }
+]
