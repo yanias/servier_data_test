@@ -13,7 +13,7 @@ steps:
   - |
         pip install -r requirements.txt
         # Run your Python script
-        python src/main.py
+        python -m src.main
  
 options:
   logging: CLOUD_LOGGING_ONLY

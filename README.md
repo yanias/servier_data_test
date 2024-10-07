@@ -40,7 +40,7 @@ Pour exécuter ce  projet il faut suivre ces étapes ci-dessous:
    
 4. **exécuter la fonction principale:**
    ```bash
-   python src/main.py
+   python -m src.main
    
 
 ## Lire de gros volume de données

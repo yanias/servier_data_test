@@ -1,0 +1,86 @@
+[
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical"
+    },
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical"
+    },
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical"
+    },
+    {
+        "drug":"BETAMETHASONE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Hôpitaux Universitaires de Genève",
+        "journal_type":"clinical"
+    },
+    {
+        "drug":"EPINEPHRINE",
+        "date":"2020-04-27T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"clinical"
+    },
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2019-01-01T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2019-01-01T00:00:00.000",
+        "journal":"Journal of emergency nursing",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"DIPHENHYDRAMINE",
+        "date":"2019-01-02T00:00:00.000",
+        "journal":"The Journal of pediatrics",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"TETRACYCLINE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Journal of food protection",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"TETRACYCLINE",
+        "date":"2020-01-02T00:00:00.000",
+        "journal":"American journal of veterinary research",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"TETRACYCLINE",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Psychopharmacology",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"ETHANOL",
+        "date":"2020-01-01T00:00:00.000",
+        "journal":"Psychopharmacology",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"EPINEPHRINE",
+        "date":"2020-02-01T00:00:00.000",
+        "journal":"The journal of allergy and clinical immunology. In practice",
+        "journal_type":"pubmed"
+    },
+    {
+        "drug":"EPINEPHRINE",
+        "date":"2020-03-01T00:00:00.000",
+        "journal":"The journal of allergy and clinical immunology. In practice",
+        "journal_type":"pubmed"
+    }
+]

@@ -19,11 +19,12 @@ fields_to_keep = ['drug', 'date', 'journal', "journal_type"]
 
 def data_pipeline():
     logger.info("start data pipeline test")
-    clinical_df = csv_reader("../datas/raw/clinical_trials.csv")
-    drugs_df = csv_reader("../datas/raw/drugs.csv")
-    pubmed_df = csv_reader("../datas/raw/pubmed.csv")
+    clinical_df = csv_reader("datas/raw/clinical_trials.csv")
+    drugs_df = csv_reader("datas/raw/drugs.csv")
+    pubmed_df = csv_reader("datas/raw/pubmed.csv")
     logger.info("save to json file")
-    json_path = "../datas/cleaned/clinical_pubmed_drug.json"
+    json_path = "datas/cleaned/clinical_pubmed_drug.json"
+    test_json_path = "../tests/datas/cleaned/clinical_pubmed_drug.json"
     save_to_json(date_cleaning(clinical_df), date_cleaning(pubmed_df),
                  drugs_df, json_path, fields_to_keep)
 
@@ -36,3 +37,4 @@ def data_pipeline():
 
 if __name__ == '__main__':
     data_pipeline()
+
