@@ -1,54 +1,89 @@
 ## HOW TO USE THIS DATA PIPELINE PROJECT
 
 
-### Introdution
+# Introdution
 
-Ce projet est projet test dans le cadre d'un entretien chez *servier*
-##structure du projet
+This project is for technical servier data project
 
-Il peut avoir plusieurs manière d'oraganiser le projet mais j'ai fait le choix de cette structure
+## structure du projet
+   - src
+      - data
+    
+        - data_loader
+        - data_cleaning
+        - adhoc_processing
+      - main.py
+   - data
+     - raw
+       - clinical_trials.csv
+       - drugs.csv
+       - pubmed.csv
+       - pubmed.json
+     - cleaned
+       - clinical_pubmed_drug.json(graph json)
+   - .github
+       - workflows
+          - python-package.yml 
+       
 
-un dossier datas dans lequel il y'a 2 sous dossiers raw(contenant les fichiers bruts) et cleaned(contenant les fichiers cleanés)
-un package src dans lequel se trouve un autre package data ou l'on trouve toutes les étapes
-de etl(extract, tranform , load) avec les fonctions data_reader, data_cleaning ect ....
-et un package test pour tester l'idempotence des fonctions utilisées.
+  - tests 
+     - test_function.py
+     - clinical_pubmed_drug.json file
+  - Dokerfile
+  - requirements.txt
+  - SQl
+    - test1.sql
+    - test2.sql
+## Deployment
+- The output of this test is [this json file](data/cleaned/clinical_pubmed_drug.json)
+- The ad-hoc part is printed when launching ``python -m src.main.py``
+- To deploy this project in local do the following steps
 
-Ce choix pour la lisibilié et aussi facilité les importance dans des modules comme dag
 
-Le projet doit etre sur un repo git 
-
-on pourrait également prendre en compte une étape de CI/CD pour tester l'intégration
-de modification de code pour qu'on pourrait checker sur GCP CLOUD BUILD
-
-# EXECUTION DU PROET
-
-Pour exécuter ce  projet il faut suivre ces étapes ci-dessous:
-
-1. **Créer un environnement virtuel avec  Python 3.8:**
+1. **Create virtual environment with Python 3.9:**
    ```bash
-   python3.8 -m venv venv
+   python3 -m venv venv
    ```
 
-2. **Activer l'environnement virtuel:**
+2. **Activate the virtual environment:**
    ```bash
    source venv/bin/activate
    ```
 
-3. **Installer les dépendances:**
+3. **Install dependencies:**
    ```bash
-   pip3 install -r requirements
+   pip3 install -r requirements.txt
    
-4. **exécuter la fonction principale:**
+4. **launch the main part:**
    ```bash
-   python src/main.py
+   python -m src.main
+   ```` 
+5. **launch the test:**
+   ```bash
+   pytest
+   ````    
    
+      Another option is to parse the paths of files as arguments
+- ### Deployment of production context
+    - A folder config should be created and add `dev`, `uat`, `ppd` and `prd` folder to hold the source information
+  
+    - add `ci/cd` with github workflow or cloud build that is trigger on push, merge operation
 
-## Lire de gros volume de données
+    - I have preference for cloud build with terraform by creating **cloud build repositoy and git connexion** 
+    - For merge strategy we could use [trunked_based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development) based on release  
+    - We could trigger the pipeline based on Eventarc when the list of file is uploaded to GCS via Airflow or Cloud Workflow
+    - For Airflow(composer) we should create an instance
 
-```
-Les élements à considérer sont le choix des technos opter pour les app qui 
-font plus de parallelisme dans le traitement comme spark,dask
-Stocker les fichiers sur des instances comme GCS , S3 
-les élements en prendre en compte seront la connexion 
-aux plateforme sur lesquelles les fichiers seront déposés 
-```
+## Strategy for huge volume of data 
+  
+  - The change to make is about the source of data.
+Where there will be loaded
+  - Update the reader_loader function to be able to read from source of data 
+  - Raw data should also be loaded to table for analysis and facilitate the normalization part 
+  - Use Spark , Dask for parallelism 
+
+
+# SQL TEST 
+  The [test 1](**) and [Test 2](SQL/Test2.sql) are on the SQL folder 
+  
+We can launch it on Bigquery editor 
