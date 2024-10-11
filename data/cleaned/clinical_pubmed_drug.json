@@ -1,0 +1,170 @@
+{
+    "journals": [
+        {
+            "American journal of veterinary research": {
+                "pubmed": [
+                    {
+                        "article_id": "5",
+                        "mention_date": "2020-01-02",
+                        "drug": "TETRACYCLINE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "Hôpitaux Universitaires de Genève": {
+                "pubmed": [],
+                "clinical_trials": [
+                    {
+                        "article_id": "NCT04153396",
+                        "mention_date": "2020-01-01",
+                        "drug": "BETAMETHASONE"
+                    }
+                ]
+            }
+        },
+        {
+            "Journal of back and musculoskeletal rehabilitation": {
+                "pubmed": [
+                    {
+                        "article_id": "11",
+                        "mention_date": "2020-01-01",
+                        "drug": "BETAMETHASONE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "Journal of emergency nursing": {
+                "pubmed": [
+                    {
+                        "article_id": "1",
+                        "mention_date": "2019-01-01",
+                        "drug": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "article_id": "2",
+                        "mention_date": "2019-01-01",
+                        "drug": "DIPHENHYDRAMINE"
+                    }
+                ],
+                "clinical_trials": [
+                    {
+                        "article_id": "NCT01967433",
+                        "mention_date": "2020-01-01",
+                        "drug": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "article_id": "NCT04189588",
+                        "mention_date": "2020-01-01",
+                        "drug": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "article_id": "NCT04237091",
+                        "mention_date": "2020-01-01",
+                        "drug": "DIPHENHYDRAMINE"
+                    },
+                    {
+                        "article_id": "NCT04188184",
+                        "mention_date": "2020-04-27",
+                        "drug": "EPINEPHRINE"
+                    }
+                ]
+            }
+        },
+        {
+            "Journal of food protection": {
+                "pubmed": [
+                    {
+                        "article_id": "4",
+                        "mention_date": "2020-01-01",
+                        "drug": "TETRACYCLINE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "Journal of photochemistry and photobiology. B, Biology": {
+                "pubmed": [
+                    {
+                        "article_id": "9",
+                        "mention_date": "2020-01-01",
+                        "drug": "ISOPRENALINE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "Psychopharmacology": {
+                "pubmed": [
+                    {
+                        "article_id": "6",
+                        "mention_date": "2020-01-01",
+                        "drug": "TETRACYCLINE"
+                    },
+                    {
+                        "article_id": "6",
+                        "mention_date": "2020-01-01",
+                        "drug": "ETHANOL"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "The Journal of pediatrics": {
+                "pubmed": [
+                    {
+                        "article_id": "3",
+                        "mention_date": "2019-01-02",
+                        "drug": "DIPHENHYDRAMINE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "The journal of allergy and clinical immunology. In practice": {
+                "pubmed": [
+                    {
+                        "article_id": "7",
+                        "mention_date": "2020-02-01",
+                        "drug": "EPINEPHRINE"
+                    },
+                    {
+                        "article_id": "8",
+                        "mention_date": "2020-03-01",
+                        "drug": "EPINEPHRINE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        },
+        {
+            "The journal of maternal-fetal & neonatal medicine": {
+                "pubmed": [
+                    {
+                        "article_id": "10",
+                        "mention_date": "2020-01-01",
+                        "drug": "BETAMETHASONE"
+                    },
+                    {
+                        "article_id": "",
+                        "mention_date": "2020-03-01",
+                        "drug": "ATROPINE"
+                    },
+                    {
+                        "article_id": "",
+                        "mention_date": "2020-03-01",
+                        "drug": "BETAMETHASONE"
+                    }
+                ],
+                "clinical_trials": []
+            }
+        }
+    ]
+}

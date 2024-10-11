@@ -11,9 +11,9 @@ steps:
   args:
   - '-c'
   - |
-        pip install -r requirements.txt
+        pip3 install -r requirements.txt
         # Run your Python script
-        python src/main.py
+        python -m src.main
  
 options:
   logging: CLOUD_LOGGING_ONLY
